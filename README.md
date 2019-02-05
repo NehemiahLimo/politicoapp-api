@@ -1,7 +1,7 @@
 # Politico API Endpoints
 This is where the endpoints are tested 
 
-##Description
+## Description
 The following Enpoints are going to be tested.
 ```
 For fetching all political parties

@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/NehemiahLimo/politicoapp-api.svg?branch=develop)](https://travis-ci.org/NehemiahLimo/politicoapp-api)
+
 # Politico API Endpoints
 This is where the endpoints are tested 
 

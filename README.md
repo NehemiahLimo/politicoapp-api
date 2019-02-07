@@ -38,6 +38,19 @@ PATCH app/api/v1/offices/<office-id>
 DEL app/api/v1/offices/<id>
 
 ```
+| Endpoint                                   | Functionality                      |
+| ----------------------------------------   |:----------------------------------:|
+| POST  /api/v1/parties                       | CREATE political party             |
+| GET  /api/v1/parties                        | GET ALL political parties          |
+| GET  /api/v1/parties/<int:party_id>          | GET ONE political party            |
+| DELETE  /api/v1/parties                      | DELETE ONE political party         |
+| PUT  /api/v1/parties/<int:party_id>          | UPDATE ONE political party         |
+| POST  /api/v1/office                       | CREATE government office           |
+| GET  /api/v1/office/<int:office_id>        | GET ONE government office          |
+| GET  /api/v1/office                        | GET ALL government offices          |
+
+
+
 
 # Implementation
 To implement these Endpoints, first you need POSTMAN tool and an understanding of the REST Apis  and HTTP Methods.

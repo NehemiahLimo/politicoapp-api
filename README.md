@@ -5,49 +5,17 @@ This is where the endpoints are tested
 
 ## Description
 The following Enpoints are going to be tested.
-```
-For fetching all political parties
-GET  app/api/parties 
 
-Craeting a party Endpoint
-POST app/api/v1/parties
- 
-Fecth a political party by name
-GET app/api/v1/parties/<name>
-
-fetch a part by specifying a party by its name and if
-GET app/api/v1/parties/<name>/<party-id>
-
-Edit a political party
-PATCH app/api/v1/parties/<name>/<party-id>
-
-Delete a party endpoint
-DEL app/api/v1/parties/<party-id>
-
-Creating an office
-POST app/api/v1/office
-
-Fetch all offices
-GET app/api/v1/offices
-
-
-GET app/api/v1/offices/<id>
-
-PATCH app/api/v1/offices/<office-id>
-
-DEL app/api/v1/offices/<id>
-
-```
 | Endpoint                                   | Functionality                      |
 | ----------------------------------------   |:----------------------------------:|
-| POST  /api/v1/parties                       | CREATE political party             |
-| GET  /api/v1/parties                        | GET ALL political parties          |
-| GET  /api/v1/parties/<int:party_id>          | GET ONE political party            |
-| DELETE  /api/v1/parties                      | DELETE ONE political party         |
-| PUT  /api/v1/parties/<int:party_id>          | UPDATE ONE political party         |
-| POST  /api/v1/office                       | CREATE government office           |
-| GET  /api/v1/office/<int:office_id>        | GET ONE government office          |
-| GET  /api/v1/office                        | GET ALL government offices          |
+| POST  /api/v1/party                       | Creates a political party             |
+| GET  /api/v1/parties                        | Get all political parties          |
+| GET  /api/v1/party/<int:party_id>          | Get a specific political party by id           |
+| DELETE  /api/v1/party                      | DELETE ONE political party         |
+| PUT  /api/v1/party/<int:party_id>          | Update one political party        |
+| POST  /api/v1/office                       | Creates a government office           |
+| GET  /api/v1/office/<int:office_id>        | Get one government office          |
+| GET  /api/v1/office                        | Get all government offices          |
 
 
 

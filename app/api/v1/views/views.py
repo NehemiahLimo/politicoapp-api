@@ -6,7 +6,7 @@ from app.api.v1.utils import validate_party_info, find_item_by_id
 
 
 
-api = Blueprint('api', __name__)
+api = Blueprint('api', __name__, url_prefix='/api/v1')
 
 
 @api.route('/parties', methods = ['GET'])

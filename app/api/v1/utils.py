@@ -1,5 +1,5 @@
-from app.api.v1.models.party_models import parties
-
+#from app.api.v1.models.party_models import parties
+from .models.party_model import parties
 
 def validate_party_info(party_dict):
     """A utility function to validate party inputs"""

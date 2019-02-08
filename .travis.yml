@@ -1,7 +1,18 @@
+#Languaage
 language: python
-python:
-  
-  -"3.7.2"
 
-  install:
+python:
+  - "3.6"
+  - "3.7"
+
+install:
+  - pip install --upgrade pip
   - pip install -r requirements.txt
+
+#coverals
+script:
+  - coveralls run --source test -m pytest -v
+
+
+after_success:
+  - coveralls

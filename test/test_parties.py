@@ -20,7 +20,7 @@ class TestParties(unittest.TestCase):
         self.app_context.pop()
     def tdest_party_creation(self):
         raw_data={
-            "id": 11,
+            "id": '11',
             "name": "GTD",
             "hqAddress": "Thika",
             "logoUrl":"sss.ssd/img.png"

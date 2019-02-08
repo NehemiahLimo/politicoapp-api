@@ -1,18 +1,12 @@
-#Languaage
 language: python
-
 python:
   - "3.6"
-  - "3.7"
-
+  - "3.7-dev"
+# command to install dependencies
 install:
-  - pip install --upgrade pip
   - pip install -r requirements.txt
-
-#coverals
+# command to run tests
 script:
-  - coveralls run --source test -m pytest -v
-
-
+  - pytest --cov=app
 after_success:
-  - coveralls
+- coveralls

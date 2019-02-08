@@ -1,6 +1,8 @@
 import os
 
 
+
+
 class Config:
     """Parent configuration class."""
     DEBUG = False
@@ -27,3 +29,10 @@ class ProductionConfig(Config):
     """Configurations for a production environment"""
     DEBUG = False
     TESTING = False
+
+config={
+    'testing': TestingConfig,
+    'dev': DevelopmentConfig,
+    'production': ProductionConfig,
+    'staging': StagingConfig
+}

@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/NehemiahLimo/politicoapp-api.svg?branch=develop)](https://travis-ci.org/NehemiahLimo/politicoapp-api)  [![Coverage Status](https://coveralls.io/repos/github/NehemiahLimo/politicoapp-api/badge.svg?branch=master)](https://coveralls.io/github/NehemiahLimo/politicoapp-api?branch=master)
+[![Build Status](https://travis-ci.org/NehemiahLimo/politicoapp-api.svg?branch=develop)](https://travis-ci.org/NehemiahLimo/politicoapp-api)  [![Coverage Status](https://coveralls.io/repos/github/NehemiahLimo/politicoapp-api/badge.svg?branch=master)](https://coveralls.io/github/NehemiahLimo/politicoapp-api?branch=master)  [![Maintainability](https://api.codeclimate.com/v1/badges/785bc4a128a9c91f7e79/maintainability)](https://codeclimate.com/github/NehemiahLimo/politicoapp-api/maintainability)
 
 # Politico API Endpoints
 This is where the endpoints are tested 

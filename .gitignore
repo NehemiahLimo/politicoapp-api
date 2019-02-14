@@ -9,7 +9,7 @@ build/
 .vscode
 develop-eggs/
 dist/
-
+.idea
 
 
 
@@ -50,4 +50,4 @@ venv.bak/
 
 
 # Pyre type checker
-.pyre/
+.pyre/.idea

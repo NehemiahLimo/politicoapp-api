@@ -2,22 +2,12 @@
 import json
 from test.base_testcase import BaseTest
 from app.api.v1.models.party_model import Party
-#from app.api.v1.models.party_models import Party
+# from app.api.v1.models.party_models import Party
 from app.api.v1.models.office_model import Office
 from app.api.v1.utils import find_by_id
 
 
 class TestParty(BaseTest):
-
-
-
-    def test_create_party_already_exists(self):
-        """Tests the creation of a party that already exists"""
-        with self.app_context():
-            response = self.app.post(
-                "/api/v1/parties", data=json.dumps(self.party_test_data), content_type="application/json")
-            self.assertEqual(response.status_code, 400,
-                             msg="POST creating an existing party did not return a 400 bad request.")
 
     def test_get_all_parties(self):
         """Test whether the API can list all products"""

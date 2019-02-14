@@ -8,12 +8,6 @@ from app.api.v1.models .office_model import Office, offices
 class Utils(BaseTest):
     """Main class for testing utility functions"""
 
-    def test_validate_party_info_data_is_none(self):
-        """Tests whether a post request with no body is allowed """
-        self.party_test_data = {}
-        response = validate_party_info(self.party_test_data)
-        self.assertDictEqual(
-            response, {"message": "party data must be provided", "code": 400})
 
     def test_validate_party_info_id_is_none(self):
         """Tests whether creating a party with no id is allowed"""
@@ -58,12 +52,6 @@ class Utils(BaseTest):
         self.assertDictEqual(
             response, {"message": "party logo Url is required", "code": 400})
 
-    def test_validate_party_info_logourl_not_a_string(self):
-        """Tests creating a party with an integer logourl"""
-        self.party_test_data["logoUrl"] = 12
-        response = validate_party_info(self.party_test_data)
-        self.assertDictEqual(
-            response, {"message": "logo must be a string", "code": 400})
 
     def test_create_party_class_method(self):
         """Tests the create party class method of the Party class"""
